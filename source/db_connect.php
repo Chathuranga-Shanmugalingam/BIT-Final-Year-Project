@@ -1,7 +1,7 @@
 <?php
 $username='root';
 $password='';
-$dsn='mysql:host=localhost; dbname=gamechanger';
+$dsn='mysql:host=localhost; dbname=db-gamechanger';
 
 try{
     $conn=new PDO($dsn, $username, $password);
